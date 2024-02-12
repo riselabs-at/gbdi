@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "GBDI",
-    "base_url": "https://bigspring-light-astro.vercel.app",
+    "base_url": "https://gbdi.io",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/globe_logo.png",
@@ -20,7 +20,7 @@
   "nav_button": {
     "enable": true,
     "label": "Sign Up",
-    "link": "#signup"
+    "link": "https://forms.gle/6uzfwJ8jbmXWLW4L7"
   },
 
   "params": {

@@ -10,26 +10,26 @@ banner:
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: Background and Approach
   features:
-  - name: "Clean Code"
+  - name: "Global Action Call"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+    content: "Propose global collaboration in reshaping building design, particularly in the booming construction sectors of the Global South, where embodied carbon considerations are currently lacking."
+  - name: "Carbon Regulation Drive"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+    content: "Explore how Europe and North America's embodied carbon regulations set benchmarks and drive transformative changes in the construction industry."
+  - name: "Strategic Design Impact"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
+    content: "Highlight integrating effective building design strategies into projects to significantly cut resource use and embodied carbon, especially in new buildings."
+  - name: "Data-Driven Choices"
     icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
+    content: "Stress the importance of data on baseline resource use and carbon emissions for informed decision-making, supporting effective decarbonization and meaningful targets."
+  - name: "Scalable Carbon Strategies"
     icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
+    content: "Examine scalable strategies for embodied carbon reduction, exploring their potential to impact the construction industry's overall carbon footprint."
+  - name: "Stakeholder Convincing"
     icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Emphasize the critical need for a convincing toolkit providing decision-makers with essential data, knowledge, and examples to swiftly gain stakeholder support and drive ambitious decarbonization efforts."
 
 # services
 services:
@@ -43,6 +43,7 @@ services:
       - "/images/partners/climateworks.png"
       - "/images/partners/desnz.png"
       - "/images/partners/epfl.jpg"
+      - "/images/partners/fib.jpg"
       - "/images/partners/gabc.jpg"
       - "/images/partners/ifc-edge.jpg"
       - "/images/partners/istruct.jpg"
@@ -61,23 +62,25 @@ services:
       label: Check it out
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Global Building Data Initiative (GBDI): Catalyzing Sustainable Futures"
+    content: "Discover how GBDI, led by GLOBE, pioneers a worldwide effort, leveraging a vast network of 5000+ experts across 150+ nations, to establish a common data protocol for benchmarking and reducing resource use and embodied carbon in new buildings, fostering global collaboration for a sustainable built environment."
     images: 
       - "/images/service-slide-1.png"
     button:
       enable: true
-      label: Check it out
-      link: /contact
+      label: Read More
+      link: /description
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "It’s a team of experienced and skilled people"
+    content: "Curious to learn more about the Global Building Data Initiative and get involved? Get in touch!"
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/team/karen.jpg"
+      - "/images/team/martin.jpeg"
+      - "/images/team/lea.jpeg"
+      - "/images/team/hassan.jpeg"
+      - "/images/team/christian.jpeg"
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: /contact
 
@@ -100,11 +103,11 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Want to Stay in Touch?
+  content: Sign up for our free newsletter.
   image: '/images/cta.png'
   button:
     enable: true
-    label: "Contact Us"
-    link: "/contact"
+    label: "Sign Up"
+    link: "https://forms.gle/VEFCx8a18iaNasgh9"
 ---
