@@ -10,7 +10,7 @@
   @apply block md:hidden;
 }
 #nav-toggle:checked ~ #nav-menu {
-    @apply block md:flex;
+  @apply block md:flex;
 }
 
 .header {

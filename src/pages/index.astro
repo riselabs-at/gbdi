@@ -64,6 +64,7 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
                 //   height={30}
                 //   alt=""
                 // />
+
                 <img
                   class="mx-auto"
                   alt={item.icon}
@@ -95,15 +96,26 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
                 {service!.images!.length > 1 ? (
                   <div class="swiper">
                     <div class="swiper-wrapper">
-                      {service!.images?.map((image: string) => (
+                      {service!.images?.map((image: string | { image: string, name: string, email: string }) => (
                         <div class="swiper-slide">
-                          <Image
-                            class="mx-auto"
-                            src={image}
-                            width={538}
-                            height={328}
-                            alt=""
-                          />
+                          {typeof image === "string" ?
+                            <Image
+                              class="mx-auto"
+                              src={image}
+                              width={538}
+                              height={328}
+                              alt=""
+                            /> :
+                            <Image
+                              class="mx-auto"
+                              src={image.image}
+                              width={538}
+                              height={328}
+                              alt={image.name}
+                            />
+                            <p class="mt-4">{image.name}</p>
+                            <a class="mb-2" href={`mailto:${image.email}`}>{image.email}</a>
+                          }
                         </div>
                       ))}
                     </div>
@@ -160,34 +172,17 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       new Swiper(".service-carousel .swiper", {
         modules: [Pagination, Autoplay],
         autoplay: {
-          delay: 3000,
+          delay: 3000
         },
         pagination: {
           type: "bullets",
           el: ".service-carousel .pagination",
-          clickable: true,
-        },
+          clickable: true
+        }
       });
     });
   </script>
   <!-- ./End service -->
-
-  <!-- Workflow -->
-  <section class="section pb-0">
-    <div class="mb-8 text-center">
-      <h2
-        class="mx-auto max-w-[400px] font-bold leading-[44px]"
-        set:html={workflow?.title}
-      />
-      <p class="mt-3" set:html={workflow?.description} />
-    </div>
-    <Image
-      src={workflow!.image}
-      alt="workflow image"
-      width={1920}
-      height={414}
-    />
-  </section>
 
   <!-- Call to Action -->
   <Cta cta={call_to_action} />
