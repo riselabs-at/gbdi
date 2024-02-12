@@ -1,0 +1,38 @@
+{
+  "site": {
+    "title": "GBDI",
+    "base_url": "https://bigspring-light-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/globe_logo.png",
+    "logo": "/images/globe.png",
+    "logo_width": "200",
+    "logo_height": "38",
+    "logo_text": "GBDI"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blog"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Sign Up",
+    "link": "#signup"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "The Global Building Data Initiative (GBDI) aims to establish a global data initiative to inform action for reducing resource use and upfront embodied carbon of new buildings.",
+    "copyright": "Designed and Developed By [GDBI](https://gdbi.io/)"
+  },
+
+  "metadata": {
+    "meta_author": "Christian Kongsgaard",
+    "meta_image": "/images/globe_logo.png",
+    "meta_description": "Global Building Data Initiative"
+  }
+}
