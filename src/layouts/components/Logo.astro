@@ -18,22 +18,5 @@ const {
 ---
 
 <a href="/" class="navbar-brand block md:w-[150px] lg:w-auto">
-  {
-    src || logo ? (
-      <Image
-        width={logo_width.replace("px", "") * 2}
-        height={logo_height.replace("px", "") * 2}
-        src={src ? src : logo}
-        alt={title}
-        style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
-        }}
-      />
-    ) : logo_text ? (
-      logo_text
-    ) : (
-      title
-    )
-  }
+  {logo_text}
 </a>

@@ -1,4 +1,4 @@
-import { slug } from 'github-slugger';
+import { slug } from "github-slugger";
 import { marked } from "marked";
 
 marked.use({});
@@ -53,7 +53,7 @@ const htmlEntityDecoder = (htmlWithEntities: string): string => {
     /(&amp;|&lt;|&gt;|&quot;|&#39;)/g,
     (entity: string): string => {
       return entityList[entity];
-    }
+    },
   );
   return htmlWithoutEntities;
 };
