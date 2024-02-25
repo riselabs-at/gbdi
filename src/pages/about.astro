@@ -1,0 +1,36 @@
+---
+import { getEntryBySlug } from "astro:content";
+import type { TAboutType } from "../types";
+import Base from "@/layouts/Base.astro";
+import Default from "@/layouts/Default.astro";
+import { Image } from "astro:assets";
+
+const entry = await getEntryBySlug("about", "index") as TAboutType;
+const { title, description, team } = entry.data;
+---
+
+<Base
+  title={title}
+  meta_title={description}
+  description={description}
+>
+  <Default data={entry} />
+  <div class="container">
+    <h1 class="text-center">Team</h1>
+    <div class="section grid gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        {team.map((person) => (
+          <div>
+            <Image
+              class="mx-auto"
+              src={person.image}
+              width={350}
+              height={350}
+              alt={person.name}
+            />
+            <p class="text-center pt-2">{person.name}</p>
+            <p class="text-center">{person.email}</p>
+          </div>
+        ))}
+    </div>
+  </div>
+</Base>

@@ -6,7 +6,11 @@
     },
     {
       "name": "About",
-      "url": "/description"
+      "url": "/about"
+    },
+    {
+      "name": "Mission",
+      "url": "/mission"
     }
   ],
   "footer": [

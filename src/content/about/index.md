@@ -2,6 +2,27 @@
 title: "Global Building Data Initiative (GBDI)"
 description: "Discover how GBDI, led by GLOBE, pioneers a worldwide effort, leveraging a vast network of 5000+ experts across 150+ nations, to establish a common data protocol for benchmarking and reducing resource use and embodied carbon in new buildings, fostering global collaboration for a sustainable built environment."
 image: "/images/blog-1.jpg"
+
+team:
+  - image: "/images/team/karen.png"
+    name: "Dr. Karen Scrivener, Project Manager"
+    email: "karen.scrivener@epfl.ch"
+
+  - image: "/images/team/martin.png"
+    name: "Dr. Martin Röck, Team Lead"
+    email: "martin.roeck@riselabs.at"
+
+  - image: "/images/team/lea.png"
+    name: "Lea de Courten-Serikoff, Research Assistant"
+    email: "lea.decourtenserikoff@epfl.ch"
+
+  - image: "/images/team/hassan.png"
+    name: "Hassan Shahzad, Full-stack Developer"
+    email: "hassan.shahzad@epfl.ch"
+
+  - image: "/images/team/christian.png"
+    name: "Christian Kongsgaard, Tech Lead"
+    email: "christian@kongsgaard.eu"
 ---
 
 The Global Building Data Initiative (GBDI) aims to establish a global data initiative to inform action
@@ -10,7 +31,7 @@ the current status quo through building data analysis and benchmarking, promote 
 and inform effective decarbonization actions. By empowering decision-makers in industry and policy,
 the initiative will drive decarbonization action for buildings considering a whole life-cycle approach.
 The initiative is implemented under the umbrella of GLOBE - The Global Consensus on Sustainability in the
-Built Environment. GLOBE is particularly well placed to lead a global effort due to their extensive network
+Built Environment. GLOBE is particularly well-placed to lead a global effort due to their extensive network
 of 5000+ experts across 150+ nation states. With this initiative, GLOBE aims to establish a common data
 protocol for quantifying resource use and embodied carbon emissions in building structures for global
 benchmarking and effective reduction.

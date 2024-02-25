@@ -49,6 +49,21 @@ export type TPostType = {
   };
 };
 
+export type TAboutType = {
+  id: string;
+  slug: string;
+  body: string;
+  data: {
+    title: string;
+    description?: string;
+    team: {
+      name: string,
+      email: string,
+      image: string
+    }[]
+  };
+};
+
 export type TPlan = {
   title: string;
   subtitle: string;

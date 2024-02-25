@@ -22,7 +22,7 @@ if (theme.fonts.font_family.secondary) {
   fontSecondaryType = theme.fonts.font_family.secondary_type;
 }
 
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   //safelist: [{ pattern: /^swiper-/ }],
@@ -33,11 +33,11 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      "2xl": "1536px",
+      "2xl": "1536px"
     },
     container: {
       center: true,
-      padding: "2rem",
+      padding: "2rem"
     },
     extend: {
       colors: {
@@ -48,7 +48,7 @@ module.exports = {
         secondary: theme.colors.default.theme_color.secondary,
         body: theme.colors.default.theme_color.body,
         border: theme.colors.default.theme_color.border,
-        "theme-light": theme.colors.default.theme_color.theme_light,
+        "theme-light": theme.colors.default.theme_color.theme_light
       },
       fontSize: {
         base: font_base + "px",
@@ -60,17 +60,17 @@ module.exports = {
         "h3-sm": h3 * 0.8 + "rem",
         h4: h4 + "rem",
         h5: h5 + "rem",
-        h6: h6 + "rem",
+        h6: h6 + "rem"
       },
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
-        secondary: [fontSecondary, fontSecondaryType],
-      },
-    },
+        secondary: [fontSecondary, fontSecondaryType]
+      }
+    }
   },
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
-    require("tailwind-bootstrap-grid")({ generateContainer: false }),
-  ],
+    require("tailwind-bootstrap-grid")({ generateContainer: false })
+  ]
 };
