@@ -1,7 +1,7 @@
 ---
 banner:
   title: Global Building Data Initiative
-  content: The Global Building Data Initiative (GBDI) aims to establish a global data initiative to inform action for reducing resource use and upfront embodied carbon of new buildings.
+  content: The Global Building Data Initiative (GBDI) leverages data to inform industry and policy action for reducing resource use and upfront embodied carbon of new buildings.
   image: ""
   button:
     label: "Join Us"
