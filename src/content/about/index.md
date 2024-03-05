@@ -14,7 +14,7 @@ team:
 
   - image: "/images/team/lea.png"
     name: "Lea de Courten-Serikoff, Research Assistant"
-    email: "lea.decourtenserikoff@epfl.ch"
+    email: "lea.decourten-serikoff@epfl.ch"
 
   - image: "/images/team/hassan.png"
     name: "Hassan Shahzad, Full-stack Developer"
