@@ -16,11 +16,11 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
     <div class="container">
       <div class="row text-center">
         <div class="mx-auto">
-          <h1 class="font-primary font-bold text-8xl text-white">{banner?.title}</h1>
+          <h1 class="font-primary font-bold text-4xl sm:text-8xl text-white">{banner?.title}</h1> <!-- Added breakpoint to resolve mobile banner issue. Any screens exceeding 640px in width will have 8xl font size -->
           <br />
           {
             banner?.content && (
-              <p class="mt-4 text-white text-4xl" set:html={markdownify(banner.content)} />
+              <p class="mt-4 text-white text-2xl sm:text-4xl" set:html={markdownify(banner.content)} />
             )
           }
         </div>
