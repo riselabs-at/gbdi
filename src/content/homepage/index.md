@@ -49,7 +49,7 @@ services:
     button:
       enable: true
       label: Read More
-      link: /description
+      link: /about
 
 # workflow
 workflow:
